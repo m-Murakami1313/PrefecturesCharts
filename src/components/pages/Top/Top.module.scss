@@ -1,0 +1,10 @@
+.Top{
+  contain: layout inline-size;
+}
+@container{
+  .wrap{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
