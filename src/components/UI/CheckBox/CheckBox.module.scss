@@ -1,0 +1,7 @@
+.CheckBoxContainer {
+  display: flex;
+  flex-wrap:wrap;
+  .CheckBoxItem {
+    display: inline-block;
+  }
+}
