@@ -10,6 +10,8 @@
     "@types/node": "^16.11.33",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
+    "dotenv": "^16.0.0",
+    "node-sass": "^7.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
@@ -39,5 +41,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.2"
   }
 }
