@@ -36,7 +36,7 @@ export const PopulationChart: React.FC<PopulationType> = React.memo(
       series: population.map(
         (p: { prefectureName: string; data: string[] | number[] }) => ({
           name: p.prefectureName,
-          data: p.data.map((v: number | string | any) => [v.year, v.value]),
+          data: p.data.map<number[]|string[]>((v: number | string | any) => [v.year, v.value]),
         })
       ),
     };
