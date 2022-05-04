@@ -5,5 +5,4 @@ function App() {
     <Top/>
   </div>;
 }
-
 export default App;
